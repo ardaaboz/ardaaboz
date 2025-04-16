@@ -20,10 +20,10 @@ I'm currently teaching myself **Java** and uploading my learning projects here a
 
 ### 🚀 Projects I'm Proud Of
 - 🧮 [Personal Expense Tracker](https://github.com/ardaaboz/java-learning-journey/tree/main/projects/personal-expense-tracker)  
-- 📇 [Contact Manager](https://github.com/ardaaboz/java-learning-journey/tree/main/projects/contact-manager)  
+- 📇 [Contact Manager](https://github.com/ardaaboz/java-learning-journey/tree/main/projects/contact-manager)
+- 📐 [Student Course Registration System](https://github.com/ardaaboz/java-learning-journey/tree/main/projects/student-course-registration-system)
 - 🎮 [Game Inventory Management System](https://github.com/ardaaboz/java-learning-journey/tree/main/projects/game-inventory-management-systen)  
 - 📖 [Library Management System](https://github.com/ardaaboz/java-learning-journey/tree/main/projects/library-management-system)  
-- 📐 [Shape Calculator (in progress)](https://github.com/ardaaboz/java-learning-journey/tree/main/projects/shape-calculator/src)
 
 > More to come as I keep building and experimenting!
 

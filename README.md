@@ -31,9 +31,9 @@ Previously volunteered as **Web Developer** at **NVEEE** - Maintained and develo
 * **[Intro Programming](https://github.com/ardaaboz/cop-1000-intro-programming)** - COP-1000 coursework
 * **[C Programming](https://github.com/ardaaboz/cop-2200c-c-programming)** - COP-2200C coursework
 * **[C++ Programming](https://github.com/ardaaboz/cop-2224c-cpp-programming)** - COP-2224C coursework
-* **Java Programming** - COP-2800C coursework (repository exists but private)
+* **[Java Programming](https://github.com/ardaaboz/cop-2800c-java-programming)** - COP-2800C coursework
 * **[Advanced Java Programming](https://github.com/ardaaboz/cop-2805c-advanced-java-programming)** - COP-2805C coursework
 * **[Scripting Languages](https://github.com/ardaaboz/cop-2830c-scripting-languages)** - COP-2830C coursework
-* **Web Development** - Web development coursework
+* **[Web Development](https://github.com/ardaaboz/web-development-coursework)** - Web development coursework
 
 Feel free to check out my projects or reach out if you're on a similar learning path.

@@ -1,4 +1,4 @@
-# Arda
+# Hey, I'm Arda!
 
 **Computer Programming and Analysis Student**
 
@@ -38,3 +38,4 @@ Previously volunteered as **Web Developer** at **NVEEE** - Maintained and develo
 
 
 Feel free to check out my projects or reach out if you're on a similar learning path.
+

@@ -1,4 +1,4 @@
-# Hey, I'm Arda!
+# Hey, I'm Arda\!
 
 **Computer Programming and Analysis Student**
 
@@ -11,6 +11,7 @@ Previously volunteered as **Web Developer** at **NVEEE** - Maintained and develo
 ## Here is some of my projects:
 
 ### Java Applications
+* **[Java Learning Journey](https://github.com/ardaaboz/java-learning-journey)** - Self-taught progression with 24+ projects organized by concept (Foundation to OOP to Advanced to Spring Boot)
 * **[Student Course Registration System](https://github.com/ardaaboz/student-course-registration-system)** - Console app with file serialization and OOP design
 * **[Personal Expense Tracker](https://github.com/ardaaboz/personal-expense-tracker)** - File-based expense management with CRUD operations
 * **[Game Inventory Management System](https://github.com/ardaaboz/game-inventory-management-system)** - Complex OOP system with multiple class relationships
@@ -27,7 +28,6 @@ Previously volunteered as **Web Developer** at **NVEEE** - Maintained and develo
 
 ## Coursework
 
-* **[Java Learning Journey](https://github.com/ardaaboz/java-learning-journey)** - Self-taught progression with 24+ projects organized by concept (Foundation to OOP to Advanced to Spring Boot)
 * **[Intro Programming](https://github.com/ardaaboz/cop-1000-intro-programming)** - COP-1000 coursework
 * **[C Programming](https://github.com/ardaaboz/cop-2200c-c-programming)** - COP-2200C coursework
 * **[C++ Programming](https://github.com/ardaaboz/cop-2224c-cpp-programming)** - COP-2224C coursework
@@ -38,4 +38,3 @@ Previously volunteered as **Web Developer** at **NVEEE** - Maintained and develo
 
 
 Feel free to check out my projects or reach out if you're on a similar learning path.
-

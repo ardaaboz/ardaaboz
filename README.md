@@ -2,7 +2,7 @@
 
 **Computer Programming and Analysis Student**
 
-I'm a 19-year-old international student from Turkey studying **Computer Programming and Analysis** at **Valencia College** in Orlando, FL. Graduating December 2025 with a 3.75 GPA.
+I'm a 19-year-old international student from Turkey studying **Computer Programming and Analysis** at **Valencia College** in Orlando, FL. Graduating December 2025.
 
 Currently working at **SportsID Inc.** as a **Web & Mobile Development Intern**, helping build a fintech MVP.
 
@@ -35,5 +35,6 @@ Previously volunteered as **Web Developer** at **NVEEE** - Maintained and develo
 * **[Advanced Java Programming](https://github.com/ardaaboz/cop-2805c-advanced-java-programming)** - COP-2805C coursework
 * **[Scripting Languages](https://github.com/ardaaboz/cop-2830c-scripting-languages)** - COP-2830C coursework
 * **[Web Development](https://github.com/ardaaboz/web-development-coursework)** - Web development coursework
+
 
 Feel free to check out my projects or reach out if you're on a similar learning path.

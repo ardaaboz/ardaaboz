@@ -23,14 +23,15 @@ Previously volunteered as **Web Developer** at **NVEEE** - Maintained and develo
 
 ### Web Applications
 * **[Finance Manager](https://github.com/ardaaboz/finance-manager)** - Spring Boot application with JPA, Security, and H2 database (in development)
+* **[Task Manager with Spring Boot](https://github.com/ardaaboz/java-learning-journey/tree/main/task-manager-with-spring-boot)** - Web-based task tracking application
 
 ## Coursework
 
 * **[Java Learning Journey](https://github.com/ardaaboz/java-learning-journey)** - Self-taught progression with 24+ projects organized by concept (Foundation to OOP to Advanced to Spring Boot)
-* **Intro Programming** - COP-1000 coursework
+* **[Intro Programming](https://github.com/ardaaboz/cop-1000-intro-programming)** - COP-1000 coursework
 * **[C Programming](https://github.com/ardaaboz/cop-2200c-c-programming)** - COP-2200C coursework
-* **C++ Programming** - COP-2224C coursework
-* **Java Programming** - COP-2800C coursework
+* **[C++ Programming](https://github.com/ardaaboz/cop-2224c-cpp-programming)** - COP-2224C coursework
+* **Java Programming** - COP-2800C coursework (repository exists but private)
 * **[Advanced Java Programming](https://github.com/ardaaboz/cop-2805c-advanced-java-programming)** - COP-2805C coursework
 * **[Scripting Languages](https://github.com/ardaaboz/cop-2830c-scripting-languages)** - COP-2830C coursework
 * **Web Development** - Web development coursework

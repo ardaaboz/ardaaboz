@@ -14,7 +14,7 @@ Most recently I was a **Web & Mobile Development Intern** at **SportsID Inc.**, 
 Client and freelance sites I have built and shipped (code is private; these are the live deployments):
 
 * **[evtoptancisi.com](https://evtoptancisi.com)** - Product catalog site for a wholesale distributor and my first freelance project. Built a custom WordPress theme and imported all 405 products with their images through an automation script, so the owner can manage products and categories without a developer.
-* **[laraotolastik.com](https://laraotolastik.com)** - Rebuilt the site for a tire company, fixing mobile responsiveness, modernizing an outdated design, and adding a second language.
+* **[laraotolastik.com](https://laraotolastik.com)** - Rebuilt the site for a tire company, fixing mobile responsiveness, modernizing an outdated design, and adding support for four languages.
 * **[arc-ambalaj.netlify.app](https://arc-ambalaj.netlify.app)** - Demo corporate site prepared as a proposal for a packaging company, addressing the broken translation and dated design on their existing site.
 * **[aysenur-ve-ibrahim.netlify.app](https://aysenur-ve-ibrahim.netlify.app)** - Gallery site built for a newly engaged couple.
 * **[nveee.org](https://nveee.org)** - Volunteer WordPress development for a US-based nonprofit, including the migration to the new site and building individual pages.

@@ -1,57 +1,51 @@
-# Hey, I'm Arda!
+# Talha Arda Boz
 
-**Software & Web Developer | Computer Programming and Analysis Graduate**
+**Web developer who ships and maintains production software.** Based in Izmir, Turkey. Open to junior full-stack and web developer roles, remote or on-site in Izmir and Istanbul.
 
-I'm a developer from Turkey. I graduated from **Valencia College** in Orlando, FL in **December 2025** with an Associate of Science in Computer Programming and Analysis (3.80 GPA, President's List). I'm currently **open to software and web developer roles**.
+Four applications I built run daily at a retail business: an in-store price lookup system, end-of-day cash reconciliation against the company ERP, a replacement for the Windows print dialog, and a cash-flow tracker. I specified, tested, deployed and maintain all of them, built with [Claude Code](https://claude.com/claude-code). Each ships with an automated test suite, a signed Windows installer and auto-update.
 
-Most recently I was a **Web & Mobile Development Intern** at **SportsID Inc.**, where I led a small team building a fintech MVP. Before that I volunteered as a **Web Developer** at **NVEEE**, building and maintaining WordPress sites. I also take on freelance web work.
+- Currently: freelance web development, and learning to work fluently inside the TypeScript and React codebases I have shipped
+- Contact: [LinkedIn](https://linkedin.com/in/arda-boz) · [Freelance profile](https://bionluk.com/ardaaboz) · ardaboz4317@gmail.com
 
-- Freelance profile: [bionluk.com/ardaaboz](https://bionluk.com/ardaaboz)
-- LinkedIn: [linkedin.com/in/arda-boz](https://linkedin.com/in/arda-boz)
+## Production software
 
-## Freelance & Web Work
+Running in daily use at a real business.
 
-Client and freelance sites I have built and shipped (code is private; these are the live deployments):
+| Project | Stack | What it does |
+|---|---|---|
+| **Fiyat Gör** *(source private)* | Go, MSSQL, PWA, Android/Kotlin | One Go service feeds wall-mounted kiosk terminals on the shop floor, an installable PWA for staff phones, and a JSON API. The kiosk auto-starts on boot with no focusable element, so the on-screen keyboard can never appear and barcode scanner input is captured directly. PIN and token auth, per-IP rate limiting, error masking. |
+| **Günsonu** *(source private)* | Electron, React, TypeScript, SQLite, MSSQL | End-of-day cash and card reconciliation. Reads each till from the company ERP over read-only queries and computes variances against counted cash. Replaced a spreadsheet process and corrected three accounting errors in it. ERP credentials encrypted with Windows DPAPI. |
+| **[Kolay Yazdır](https://github.com/ardaaboz/kolay-yazdir)** | C#, .NET, WPF | Replaces the Windows print dialog at a retail counter. Mixed image, PDF, Word and Excel batches, N-up layout, duplex edge selection, live preview. The layout engine is a pure function with no Windows dependency, shared by preview and printer, so the two cannot diverge. 29 test files. |
+| **[Mali Takip](https://github.com/ardaaboz/Mali-Takip)** | Electron, React, TypeScript, SQLite | Offline cash-flow and card-settlement tracker. Models per-bank settlement delay and commission so funds appear as available only on the day they clear. Settings are versioned per record, so changing a bank's terms never rewrites history. |
 
-* **[evtoptancisi.com](https://evtoptancisi.com)** - Product catalog site for a wholesale distributor and my first freelance project. Built a custom WordPress theme and imported all 405 products with their images through an automation script, so the owner can manage products and categories without a developer.
-* **[laraotolastik.com](https://laraotolastik.com)** - Rebuilt the site for a tire company, fixing mobile responsiveness, modernizing an outdated design, and adding support for four languages.
-* **[arc-ambalaj.netlify.app](https://arc-ambalaj.netlify.app)** - Demo corporate site prepared as a proposal for a packaging company, addressing the broken translation and dated design on their existing site.
-* **[aysenur-ve-ibrahim.netlify.app](https://aysenur-ve-ibrahim.netlify.app)** - Gallery site built for a newly engaged couple.
-* **[nveee.org](https://nveee.org)** - Volunteer WordPress development for a US-based nonprofit, including the migration to the new site and building individual pages.
+## Other projects
 
-## Projects
+- **[Ev Nöbetçisi](https://github.com/ardaaboz/ev-nobetcisi)** (Python, 185 commits): rental listing watcher. Polls three property sites every five minutes, fuzzy-deduplicates across sources, pushes matches to Telegram. Tests are written specifically to catch generated content drifting from fact: the build fails if any unverified claim reaches an outgoing message template.
+- **[Sooji](https://github.com/ardaaboz/sooji)** (JavaScript, Android): Korean hand-therapy reference built for a user with retinitis pigmentosa. Narrow central column, no screen-edge controls, high contrast. Ships as a 229 KB signed APK that requests no network permission and as a single offline HTML file. Every claim is shown with its source; the app makes no diagnostic or curative claims.
+- **[Finance Manager](https://github.com/ardaaboz/finance-manager)** (Java, Spring Boot, Spring Security, JPA): bilingual finance application with authentication, recurring bill tracking and budget visualization over a RESTful API.
+- **[Earthquake Network for Streamers](https://github.com/ardaaboz/earthquake-network-for-streamers)** (Node.js, Upstash Redis, Vercel): OBS overlay pushing live earthquake alerts to a stream.
 
-### Web Applications
-* **[Finance Manager](https://github.com/ardaaboz/finance-manager)** - Full-stack Spring Boot finance tracker with JPA, Spring Security, and full English/Turkish bilingual support (deployed)
-* **[Earthquake Network for Streamers](https://github.com/ardaaboz/earthquake-network-for-streamers)** - OBS overlay that pushes live earthquake alerts to a stream, using Node.js, Upstash Redis, and Vercel serverless functions
-* **[RPG Battle Tracker](https://github.com/ardaaboz/rpg-battle-tracker)** - Browser-based tabletop battle tracker with initiative order, HP management, and save/load
+## Client work
 
-### Java Applications
-* **[Student Course Registration System](https://github.com/ardaaboz/student-course-registration-system)** - Console app with file serialization and OOP design
-* **[Personal Expense Tracker](https://github.com/ardaaboz/personal-expense-tracker)** - File-based expense management with full CRUD and persistence
-* **[Game Inventory Management System](https://github.com/ardaaboz/game-inventory-management-system)** - OOP inventory system with item trading between characters
-* **[Satisfactory Calculator](https://github.com/ardaaboz/satisfactory-calculator)** - Production planning tool built with recursive algorithms
-* **[Java Learning Journey](https://github.com/ardaaboz/java-learning-journey)** - Self-taught progression with 24+ projects, from fundamentals through OOP to Spring Boot
+Sites built and shipped for clients. Code is private; these are the live deployments.
 
-### Python Utilities
-* **[YouTube Transcripts Extractor](https://github.com/ardaaboz/transcripts-extractor)** - Multi-language transcript extraction with API integration
-* **[YouTube Downloader](https://github.com/ardaaboz/youtube-downloader)** - Video downloader with both CLI and GUI interfaces
-* **[Wikipedia Summarizer](https://github.com/ardaaboz/wikipedia-summarizer)** - Wikipedia article summarizer using the OpenAI API, with a Flask web interface
-
-## Coursework
-
-* **[Intro Programming](https://github.com/ardaaboz/cop-1000-intro-programming)** - COP-1000
-* **[C Programming](https://github.com/ardaaboz/cop-2200c-c-programming)** - COP-2200C
-* **[C++ Programming](https://github.com/ardaaboz/cop-2224c-cpp-programming)** - COP-2224C
-* **[Java Programming](https://github.com/ardaaboz/cop-2800c-java-programming)** - COP-2800C
-* **[Advanced Java Programming](https://github.com/ardaaboz/cop-2805c-advanced-java-programming)** - COP-2805C
-* **[Scripting Languages](https://github.com/ardaaboz/cop-2830c-scripting-languages)** - COP-2830C
-* **[Web Development](https://github.com/ardaaboz/web-development-coursework)** - Web development coursework
+- **[evtoptancisi.com](https://evtoptancisi.com)**: product catalog for a wholesale distributor. Custom WordPress theme, with all 405 products and images imported through an automation script so the owner can manage the catalog without a developer.
+- **[laraotolastik.com](https://laraotolastik.com)**: rebuild for a tire company. Fixed mobile responsiveness, modernized an outdated design, added four-language support.
+- **[nveee.org](https://nveee.org)**: WordPress development for a US nonprofit, including migration to the new site.
+- **[arc-ambalaj.netlify.app](https://arc-ambalaj.netlify.app)**: corporate site proposal for a packaging company.
 
 ## Skills
 
-**Languages:** Java, Python, C, C++, JavaScript, SQL
-**Frameworks & Tools:** Spring Boot, Spring Security, JPA, Flask, Bootstrap, WordPress, Git
-**Other:** RESTful APIs, OOP design, data structures, AWS, Vercel, Supabase
+**Professional, day to day:** JavaScript, HTML5, CSS3, responsive design, performance optimization, WordPress, Elementor, Git
 
-Feel free to look through my projects or reach out if you'd like to work together.
+**Academic foundation:** Java (Spring Boot, Spring Security, JPA), Python, SQL, MySQL, C, C++, RESTful API design, OOP design patterns, data structures
+
+**Shipped to production with Claude Code:** TypeScript, React, Electron, Go, C#/.NET, WPF, Dart/Flutter, Kotlin/Android, MSSQL, SQLite, PWAs
+
+**Testing and delivery:** Vitest, React Testing Library, pytest, dotnet test, flutter test, Go testing, GitHub Actions, semantic versioning, signed installers with auto-update
+
+## Education
+
+**Associate of Science, Computer Programming and Analysis**, Valencia College, Orlando, FL (2024 to 2025). GPA 3.80, President's List.
+
+Coursework repositories: [Intro Programming](https://github.com/ardaaboz/cop-1000-intro-programming), [C](https://github.com/ardaaboz/cop-2200c-c-programming), [C++](https://github.com/ardaaboz/cop-2224c-cpp-programming), [Java](https://github.com/ardaaboz/cop-2800c-java-programming), [Advanced Java](https://github.com/ardaaboz/cop-2805c-advanced-java-programming), [Scripting Languages](https://github.com/ardaaboz/cop-2830c-scripting-languages), [Web Development](https://github.com/ardaaboz/web-development-coursework), [Java Learning Journey](https://github.com/ardaaboz/java-learning-journey).
